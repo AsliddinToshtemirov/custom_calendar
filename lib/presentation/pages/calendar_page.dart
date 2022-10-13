@@ -21,7 +21,7 @@ class _CalendarPageState extends State<CalendarPage> {
   Widget build(BuildContext context) {
     final days = AppUtils.getDayByMonth(selectedMonth);
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey.withOpacity(0.9),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(20),
